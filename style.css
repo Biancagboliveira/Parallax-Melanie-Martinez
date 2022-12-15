@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main {
+    display: block;
+    background-color: #3a0c30;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.module.content {
+    padding: 40px 0;
+    background: #ffa2f3;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+section.module.paralex-1 {
+    background-image: url(img/melaniemt.jpg);
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, #631c5000 0, #961e7800 40%, #5e0c53 100%);
+    background: -webkit-linear-gradient(to bottom, #631c5000 0, #961e7800 40%, #5e0c53 100%);
+    background: linear-gradient(to bottom, #631c5000 0, #961e7800 40%, #5e0c53 100%);
+}
+
+ section.module.paralex-2 {
+    background-image: url(img/melanie.gif);
+ }
+
+section.module.parallax h1 {
+    color: #3a0c30;
+    text-align: center;
+    font-size: 100px;
+    z-index: 30;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px #ffa2f3, -1px 1px 0px #ffa2f3, 1px -1px 0px #ffa2f3, 1px 0px 0px #ffa2f3;
+    
+}
+
+section.module.paralex-3{
+    background-image: url(img/imagem.gif);
+}
+
+
+
+/* Créditos sobre o codigo acima: https://www.youtube.com/@Sujeitoprogramador  */
+
+
+
+
+footer{
+    background-color: #ffa2f3;
+    width: 100%;
+    height: 50px;
+}
+
+#rodape{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+}
+
+a:link {
+    color: #5e0c53;
+    text-decoration: none;
+}
+
+a:active {
+    color: #5e0c53;
+}
+
+a:visited {
+    color: #5e0c53;
+}
+
+a:hover {
+    color: #5e0c53;
+}
